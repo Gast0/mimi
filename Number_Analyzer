@@ -1,8 +1,17 @@
+# Design a program to inspect numbers using
+
+# The first thing we want to know from a number is whether it's even or odd
+# Okay, we printed the message for when the number is an even number. Let's print the message for when the number is odd
+
 def check_odd_even(number):
   if number%2 == 0 :
     print(f'{number} is an even number')
   else:
     print(f'{number} is an odd number')
+
+# Now let's code another function to give us another characteristic, the factors of a number
+# To get the factors of a number, we'll iterate through all the numbers from 1 till the number itself. We'll then try to divide the numbers by the iteration index. If the division has no remainder, the iteration index is a factor of the number
+# Let's print and return it so that we can use it in our next step
 
 def get_factors(number):
   factors=[]
@@ -14,11 +23,16 @@ def get_factors(number):
   print(f'The factors of {number} are: {factors}')
   return factors
 
+# If a number has 2 factors only, it's a prime number. Let's create one more function to check if the number is a prime number.
+# Alright, we printed the message for when the number is a prime number. Let's print the message for when the number is not a prime number.
+
 def check_prime(number, factors):
   if len(factors) == 2:
     print(f'{number} is a prime number')
   else:
     print(f'{number} is not a prime number')
+
+# Let's create a function to call all those functions we created so that the users don't have to call each function one by one
 
 def analyze_number(number):
   check_odd_even(number)
