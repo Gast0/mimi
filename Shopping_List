@@ -1,3 +1,18 @@
+# LISTS
+
+# Rachel plans to go to the supermarket tomorrow. She checks the house and writes down a list of items she needs. Let's create a variable to represent the shopping list.
+# Rachel's dad wants her to buy some batteries for him. Let's append a new batteries item to the shopping list.
+# Rachel's sister, Riley, loves chocolate and Rachel knows a store in the supermarket where they sell fair-trade and really good quality chocolate. Since the store is at the entrance of the supermarket, let's make it the first item on the list to spare Rachel the detour!
+# Rachel just remembered that Riley only likes dark chocolate. We already inserted "chocolate" into the list but we can change it to "dark chocolate".
+# Rachel's dad just called to inform Rachel that he found some batteries in the garage. Let's take the batteries out of the shopping list.
+# Rachel went for her grocery run and came back with a list of items she bought. Now, we want to help Rachel find out what she did not manage to buy. To begin, let's start by creating some variables.
+# Rachel wants to make sure that she's bought everything that was on the shopping list. Let's go through the shopping list and see if each item is on the purchased list as well. If it is not on the purchased list, we'll add it to the list of items that she did not purchase.
+# Awesome! We have the items she didn't manage to buy. Let's print them so that Rachel can see what she needs to buy next time. If there are no items on the list, we'll print a message to let her know that she managed to purchase everything she needed.
+# To better manage her budget, Rachel also wants to know if she purchased any items on impulse that were not on the shopping list. To get started, let's create a variable to store these items.
+# Let's go through the purchased list and see if there are items that were not on the shopping list. If it is not on the shopping list, we'll add it to the list of items that she purchased on impulse.
+# Great! We have the items she probably didn't need but bought anyways. Let's show them to Rachel so that she's aware.
+
+
 shopping_list = ["potato", "apple", "oil", "milk","toilet paper"]
 shopping_list.append("batteries")
 shopping_list.insert(0, "chocolate")
