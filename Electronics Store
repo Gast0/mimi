@@ -1,3 +1,14 @@
+# STRING OPERATIONS
+
+# The store owner stored all the data as a string in a variable called data. This string has information about a set of different devices. Each piece of information includes the device type and the device price. The data about each device is separated by a | sign. All this information is useful but not very easy to read, so let's extract and store it in a list format with different items.
+# Now that we've got the list of strings stored in device_list, let's separate the type and device price by further splitting the device data by the comma that separates device type and price.
+# Due to inflation, the store owner wants us to update the prices and add a 10% increase to each device price. To make accounting simpler, the owner decides to round down the new price to the nearest dollar. Since we already extracted the device type and price individually, let's apply the increment before we format the data.
+# Great! We've broken down the string into the individual parts we need. Let's format the information before including it into the formatted_list variable.
+# The store owner just informed us that when he was tabulating the data, his keyboard was broken. Instead of a, the store owner typed @ in all the strings of the data variable.
+# Excellent work! Now, the corrected data is ready and we can populate the formatted_list variable with this data.
+
+
+
 data = "14inch l@ptop,699|16inch l@ptop,999|sm@rtphone,1099|t@blet,499|g@ming pc,1999"
 
 device_list = data.split("|")
