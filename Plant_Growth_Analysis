@@ -1,3 +1,18 @@
+# LIST OPERATIONS
+
+# George monitored his plant for a week and gathered some data on how much his plant grew in centimeters. To get started, he wants to store the data in a list.
+# George wants to know what the smallest growth in height over the week was. He wants to sort the list in ascending order, and take the first element because that would be the smallest value.
+# George also wants to find out what the biggest growth in height over the week was. Since the list is already sorted in ascending order, the last element would be the biggest value.
+# After knowing the smallest and biggest growth values, George wants to know what the average growth in height over the week is.
+# While we were writing the program with George, a week passed and George gathered more data. He wants to combine the data from the 2 weeks to perform further analysis.
+# George just learned that he doesn't actually need to sort the list and then retrieve elements to get the biggest and smallest values. He could simply use min() to get the smallest value in the list. George wishes to use this newfound knowledge to get the smallest growth value from the past 2 weeks.
+# When George discovered min(), he discovered max() as well. He wants to use max() to get the biggest growth value from these past 2 weeks.
+# Like before, George wants to know what the average growth in height over these 2 weeks is. Unfortunately, there's no function, like min() and max(), to get the average in the list.
+# George would like to understand how many times the smallest and biggest growth values occurred during these 2 weeks. Let's start by counting the times the smallest value appears in the joined_growth list.
+# We got the smallest growth count, it's now time to get the biggest growth count.
+
+
+
 growth = [3, 1, 2, 4, 2, 3, 2]
 growth.sort()
 smallest_growth = growth[0]
