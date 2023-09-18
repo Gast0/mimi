@@ -1,3 +1,16 @@
+# TYPES AND COMPARISONS
+
+# Let's begin with something simple. Store the student's name Sam in a variable.
+# Sam had four exams this semester. The subjects he studied were Math, Science, English and Geology. Let's store Sam's grades in unique variables.
+# Now, in order to determine whether Sam passed the semester, we need to calculate the total grade he obtained.
+# The maximum grade for each subject is 100. So, the total maximum grade a student can obtain is 400. With this information, let's calculate Sam's total grade as a percentage.
+# Awesome! We receive word from the IT department in the school that the system they work with doesn't accept decimals. To ensure we only display the total percentage with integers, we need to convert the total_percentage from a float to an integer.
+# Using the information we just obtained, let's check if Sam passed the semester. The course instructor informs us that in order for a student to pass, they must score a total percentage of 50 or higher.
+# As we process Sam's report, we notice that Sam never participated in any sporting activities at school. Hence, Sam will get a 0 in sports. This is an extra-curricular activity, so Sam's grades will not be affected. However, we want to reflect this information in the report.a
+# Excellent work. Now, let's print the total percentage that Sam achieved as well as whether Sam has passed or not.
+
+
+
 student_name = "Sam"
 math_grade = 88
 science_grade = 75
