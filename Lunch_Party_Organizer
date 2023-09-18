@@ -1,5 +1,6 @@
-# Create a program to organize a lunch party
+# PYTHON BASICS
 
+# Create a program to organize a lunch party
 # You'll serve pizza to the guests of your party. Let's create a variable and store the menu item inside.
 # 10 guests confirmed they are coming to your party. Let's create another variable to keep track of the number of guests.
 # Before the guests arrive, let's check the menu and the number of people coming to make sure we prepare enough food. To display the values stored in the variables we created, let's use print statements.
