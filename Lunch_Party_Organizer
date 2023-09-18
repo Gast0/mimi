@@ -1,3 +1,17 @@
+# Create a program to organize a lunch party
+
+# You'll serve pizza to the guests of your party. Let's create a variable and store the menu item inside.
+# 10 guests confirmed they are coming to your party. Let's create another variable to keep track of the number of guests.
+# Before the guests arrive, let's check the menu and the number of people coming to make sure we prepare enough food. To display the values stored in the variables we created, let's use print statements.
+# You just received a call from one of the guests and they told you that they are allergic to cheese! To ensure everyone's safety, let's replace the menu item with biryani instead. Biryani is a delicious dish made with meat or vegetables, rice, and a variety of flavorful spices.
+# Let's make sure we updated the menu! We can use a print statement to do that.
+# It's time to calculate how much biryani you need for 10 guests. Start by creating a variable to store the amount of biryani for a single person. Then calculate the amount of biryani we need for 10 guests.
+# You ordered the biryani after calculating how much biryani you are going to need for 10 guests, and it is just delivered to your place. You counted the biryani you received. Now let's store the number of biryani you have just counted in a new variable.
+# Let's check if we have enough biryani using the equality operator.
+# The guests just started to arrive and you realized that one of them has brought their sibling to the party too. Let's update the number of guests in our program.
+# To ensure everyone gets a portion of biryani, let's calculate how much biryani we need to serve each guest.
+
+
 menu_item = "pizza"
 guests = 10 + 1
 print(menu_item)
