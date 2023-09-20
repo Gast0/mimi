@@ -1,0 +1,6 @@
+# TUPLES, DICTIONARIES AND SETS
+
+# Let’s use our knowledge of Tuples, Dictionaries and Sets to assemble an inventory for a personal library.
+# We’ll create a Dictionary to store books, Tuples to store a books info and Sets to store every author the library has.
+# First, we need to store some book’s info.
+
